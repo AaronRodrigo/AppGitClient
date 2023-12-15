@@ -44,6 +44,9 @@ public class GitCliente {
             this.licencia = licencia;
             return null;
         }
+        public String tostring() {
+            return "GitClient(" + "cliente=" + cliente + ", version=" + version + ", sistemoper=" + sistemOper + ", licencia=" + licencia † ']';
+        }
         
     }
     
